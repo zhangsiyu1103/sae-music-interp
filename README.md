@@ -53,7 +53,7 @@ Extract activations from MusicGen layers:
 ```bash
 # Single layer
 python -m src.data.extract \
-    --model facebook/musicgen-medium \
+    --model facebook/musicgen-melody \
     --layers 12 \
     --prompt_file data/musiccaps_prompts_medium.txt \
     --batch_size 64 \
