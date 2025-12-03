@@ -1,0 +1,54 @@
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Music generation
+audiocraft>=1.0.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+
+# Machine learning
+scikit-learn>=1.3.0
+transformers>=4.30.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Interactive tools
+gradio>=3.35.0
+ipywidgets>=8.0.0
+
+# Data handling
+pandas>=2.0.0
+h5py>=3.8.0
+PyYAML>=6.0
+
+# Utilities
+tqdm>=4.65.0
+wandb>=0.15.0  # Optional: for experiment tracking
+tensorboard>=2.13.0
+
+# LLM APIs (for auto-labeling)
+openai>=1.0.0  # Optional: for GPT-4 auto-labeling
+anthropic>=0.3.0  # Optional: for Claude auto-labeling
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Documentation
+jupyter>=1.0.0
+ipython>=8.12.0
+notebook>=6.5.0
+
+# Code quality
+black>=23.3.0
+flake8>=6.0.0
+mypy>=1.3.0
