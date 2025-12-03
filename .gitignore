@@ -19,7 +19,13 @@ data/music_samples/
 *.mp3
 
 # Models
-models/
+models/**/*.pt
+models/**/*.pth
+models/**/*.json
+models/batch_topk/
+models/checkpoint/
+models/topk
+!models/.gitkeep
 
 # Results
 results
